@@ -1,0 +1,545 @@
+[SNIPER] Running ['/home/viorel/Proiect_History/Sniper/record-trace', '-o', '/tmp/tmpttdf0wey/run_benchmarks', '-v', '--roi', '-e', '1', '-s', '0', '-r', '1', '--follow', '--routine-tracing', '--', './fft', '-p', '1']
+[SNIPER] Start
+[SNIPER] Running ['bash', '-c', '/home/viorel/Proiect_History/Sniper/lib/sniper -c /home/viorel/Proiect_History/Sniper/config/base.cfg --general/total_cores=8 --general/output_dir=/home/viorel/Proiect_History/Sniper/test/fft --config=/home/viorel/Proiect_History/Sniper/config/nehalem.cfg --config=/home/viorel/Proiect_History/Sniper/config/gainestown.cfg -g --general/magic=true -g --traceinput/stop_with_first_app=true -g --traceinput/restart_apps=false -g --hooks/numscripts=1 -g --hooks/script0name=/home/viorel/Proiect_History/Sniper/test/fft/sim.scripts.py -g --hooks/script0args= -g --traceinput/stop_with_first_app=false -g --traceinput/enabled=true -g --traceinput/emulate_syscalls=true -g --traceinput/num_apps=1 -g --traceinput/trace_prefix=/tmp/tmpttdf0wey/run_benchmarks']
+[BRANCH_HOOK] Registering branch prediction callback
+[BRANCH_HOOK] Registering branch prediction callback
+[BRANCH_HOOK] Registering branch prediction callback
+[BRANCH_HOOK] Registering branch prediction callback
+[BRANCH_HOOK] Registering branch prediction callback
+[BRANCH_HOOK] Registering branch prediction callback
+[BRANCH_HOOK] Registering branch prediction callback
+[BRANCH_HOOK] Registering branch prediction callback
+[BRANCH_HOOK] Registering branch prediction callback
+[ACAPS_SCSP] Calling interval [ns]: 10000
+[ACAPS_SCSP] Idle freq. [MHz]: 1000
+[ACAPS_SCSP] Number of inputs for Perceptron: 1
+[SNIPER] --------------------------------------------------------------------------------
+[SNIPER] Sniper using SIFT/trace-driven frontend
+[SNIPER] Running pre-ROI region in  CACHE_ONLY mode
+[SNIPER] Running application ROI in DETAILED mode
+[SNIPER] Running post-ROI region in FAST_FORWARD mode
+[SNIPER] --------------------------------------------------------------------------------
+[RECORD-TRACE] Using the SDE frontend (sift/recorder)
+[SIFT_RECORDER] Running /home/viorel/Proiect_History/Sniper/sde_kit/sde64  -t64 /home/viorel/Proiect_History/Sniper/sift/recorder/obj-intel64/sde_sift_recorder.so -sniper:verbose 1 -sniper:debug 0 -sniper:roi 1 -sniper:roi-mpi 0 -sniper:f 0 -sniper:d 0 -sniper:b 0 -sniper:o /tmp/tmpttdf0wey/run_benchmarks -sniper:e 1  -sniper:s 0 -sniper:r 1  -sniper:pa 0 -sniper:rtntrace  1 -sniper:stop 0    -- ./fft -p 1
+[CONTROLLER] tid: 0 ip: 0x401d00 0 Start
+[CONTROLLER] tid: 0 ip: 0x401d00 0 Start
+[SNIPER] Enabling performance models
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting instrumentation mode to DETAILED
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 1000 MHz
+[SNIPER] Setting frequency for core 1 in DVFS domain 1 to 2660 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 1000 MHz
+[SNIPER] Setting frequency for core 2 in DVFS domain 2 to 2660 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 1000 MHz
+[SNIPER] Setting frequency for core 3 in DVFS domain 3 to 2660 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 1000 MHz
+[SNIPER] Setting frequency for core 4 in DVFS domain 4 to 2660 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 1000 MHz
+[SNIPER] Setting frequency for core 5 in DVFS domain 5 to 2660 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 1000 MHz
+[SNIPER] Setting frequency for core 6 in DVFS domain 6 to 2660 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 1000 MHz
+[SNIPER] Setting frequency for core 7 in DVFS domain 7 to 2660 MHz
+[SNIPER] Disabling performance models
+[SNIPER] Leaving ROI after 3.67 seconds
+[SNIPER] Simulated 1.3M instructions, 1.8M cycles, 0.70 IPC
+[SNIPER] Simulation speed 346.8 KIPS (43.3 KIPS / target core - 23070.3ns/instr)
+[SNIPER] Sampling: executed 46.16% of simulated time in detailed mode
+[SNIPER] Setting instrumentation mode to FAST_FORWARD
+[TRACE:0] -- DONE --
+
+FFT with Blocking Transpose
+   1024 Complex Doubles
+   1 Processors
+   65536 Cache lines
+   16 Byte line size
+   4096 Bytes per page
+
+
+                 PROCESS STATISTICS
+            Computation      Transpose     Transpose
+ Proc          Time            Time        Fraction
+    0               247             30       0.12146
+
+                 TIMING INFORMATION
+Start time                        :      -1844408301
+Initialization finish time        :      -1844407885
+Overall finish time               :      -1844407638
+Total time with initialization    :              663
+Total time without initialization :              247
+Overall transpose time            :               30
+Overall transpose fraction        :          0.12146
+
+
+[BRANCH_MARKOV] Final Statistics:
+Total branches encountered: 32032
+Taken branches: 26514 (82.77%)
+Not taken branches: 5518 (17.23%)
+                     Power     Energy    Energy %
+  core-core         3.79 W     1.90 mJ      7.45%
+  core-ifetch       2.37 W     1.19 mJ      4.67%
+  core-alu          2.35 W     1.18 mJ      4.62%
+  core-int          2.57 W     1.29 mJ      5.07%
+  core-fp           6.00 W     3.02 mJ     11.81%
+  core-mem          1.48 W     0.75 mJ      2.92%
+  core-other        7.59 W     3.82 mJ     14.93%
+  icache            1.88 W     0.94 mJ      3.69%
+  dcache            4.06 W     2.04 mJ      7.98%
+  l2                3.34 W     1.68 mJ      6.56%
+  l3                6.75 W     3.39 mJ     13.28%
+  dram              8.60 W     4.33 mJ     16.92%
+  other             0.05 W     0.03 mJ      0.10%
+
+  core             26.15 W     0.01  J     51.46%
+  cache            16.02 W     8.06 mJ     31.51%
+  total            50.82 W     0.03  J    100.00%
+[SNIPER] End
+[SNIPER] Elapsed time: 7.63 seconds
+[SNIPER] Running McPAT
